@@ -8,7 +8,7 @@ export default function Header() {
         { name: "Acceuil", icon: FaHome, path: "/" },
         { name: "Comment", icon: FaCommentDots, path: "/dashboard/comment" },
         { name: "Contact", icon: IoIosMail, path: "/dashboard/contact" },
-        { name: "Login", icon: FaUser, path: "/dashboard" },
+        { name: "Login", icon: FaUser, path: "/login" },
       ];
 
   return (
