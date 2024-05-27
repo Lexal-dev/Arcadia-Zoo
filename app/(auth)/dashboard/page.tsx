@@ -5,8 +5,6 @@ import { useEffect } from "react";
 import {auth} from"@/db/firebaseConfig";
 import useClientAuth from "@/app/hooks/useClientAuth";
 
-
-
 export default function Dashboard() {
   const { user, isFetch, redirectAuthentificate } = useClientAuth();
 

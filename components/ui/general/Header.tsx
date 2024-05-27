@@ -6,9 +6,12 @@ export default function Header() {
 
     const navMenu = [
         { name: "Acceuil", icon: FaHome, path: "/" },
-        { name: "Comment", icon: FaCommentDots, path: "/dashboard/comment" },
-        { name: "Contact", icon: IoIosMail, path: "/dashboard/contact" },
+        { name: "Comment", icon: FaCommentDots, path: "/dashboard/company/global/comment" },
+        { name: "Contact", icon: IoIosMail, path: "/dashboard/company/global/contact" },
         { name: "Login", icon: FaUser, path: "/login" },
+        { name: "admin", icon: FaHome, path: "/dashboard/company/admin" },
+        { name: "employee", icon: FaHome, path: "/dashboard/company/employee" },
+        { name: "veto", icon: FaHome, path: "/dashboard/veterinarian" },
       ];
 
   return (

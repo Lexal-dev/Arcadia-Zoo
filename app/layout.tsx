@@ -4,6 +4,7 @@ import "./globals.css";
 import Header from "@/components/ui/general/Header";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css'
+import  CheckPath from '@/components/CheckPath';
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -19,11 +20,13 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-            <Header/>
-            <ToastContainer />
-            {children}
-      </body>
+      <CheckPath>
+        <body className={inter.className}>
+              <Header/>
+              <ToastContainer />
+              {children}
+        </body>
+      </CheckPath>
     </html>
   );
 }
